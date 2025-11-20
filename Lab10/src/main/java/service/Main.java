@@ -9,7 +9,7 @@ public class Main {
         User user = inputUser.checkUser();
 
         if (user == null) {
-            System.out.println("Программа завершена!");
+            System.out.println("К сожалению такого пользователя не существует. Программа завершена!");
             return;
         }
 

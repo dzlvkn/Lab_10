@@ -8,11 +8,9 @@ public class Programm {
         if (user.getRole().equals("ADMIN")) {
             System.out.println("Добро пожаловать, администратор!");
 
-        } else if (user.getRole().equals("USER")) {
+        } else {
             System.out.println("Добро пожаловать, пользователь!");
 
-        } else {
-            System.out.println("Неверный ввод!");
         }
 
      }
