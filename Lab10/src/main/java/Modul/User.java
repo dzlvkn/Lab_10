@@ -31,6 +31,7 @@ public class User {
                 new User("User2", "98dgjd", "USER"),
                 new User("User3", "52sain", "USER"),
                 new User("User4", "eto2st", "ADMIN"),
+                new User("User5", "52dsp", "USER")
         };
 
         return users;
